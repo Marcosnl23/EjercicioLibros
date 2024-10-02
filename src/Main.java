@@ -16,6 +16,11 @@ public class Main {
         Biblioteca biblioteca=new Biblioteca();
         biblioteca.agregarLibros(libros);
 
+        System.out.println("Libros sin serializar");
+        for(Libro libro:libros){
+            System.out.println(libro.toString());
+        }
+
         biblioteca.seriailazrlibros(libros);
 
         biblioteca.deserializarlibros();
