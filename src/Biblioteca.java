@@ -14,7 +14,7 @@ public class Biblioteca {
         }
     }
 
-    public void seriailazrlibros(ArrayList<Libro> libros){
+    public void seriailazrlibros(){
         try (FileOutputStream fileOutput = new FileOutputStream("biblioteca.ser");
              ObjectOutputStream objectOutput = new ObjectOutputStream(fileOutput)) {
 

@@ -21,7 +21,7 @@ public class Main {
             System.out.println(libro.toString());
         }
 
-        biblioteca.seriailazrlibros(libros);
+        biblioteca.seriailazrlibros();
 
         biblioteca.deserializarlibros();
     }
